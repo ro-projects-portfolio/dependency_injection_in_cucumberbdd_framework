@@ -1,7 +1,10 @@
+@Debug
 Feature: Login
 
   Background:
     Given I go to login page
+
+  Scenario: Empty login fields
     Then The field Username is empty
     Then The field Password is empty
 
